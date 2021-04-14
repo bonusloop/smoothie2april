@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Muli-ExtraBold';
-    src: url("/assets/fonts/Muli-ExtraBold.woff") format('truetype');
+    src: url('/assets/fonts/Muli-ExtraBold.woff') format('woff');
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: 'Muli-Regular';
-    src: url('/assets/fonts/Muli-Regular.woff') format('truetype');
+    src: url('/assets/fonts/Muli-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -28,3 +28,7 @@
     src: url('/assets/fonts/Muli-Semi-BoldItalic.ttf') format('truetype');
 }
 
+.header {
+    background-image: url('../assets/images/header/header-bg-img.png');
+    height: 100vh;
+}
