@@ -1,36 +1,39 @@
 @font-face {
     font-family: 'Muli-Bold';
-    src: url('/assets/fonts/Muli-Bold.ttf') format('truetype');
+    src: url('../assets/fonts/Muli-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Muli-BoldItalic';
-    src: url('/assets/fonts/Muli-BoldItalic.ttf') format('truetype');
+    src: url('../assets/fonts/Muli-BoldItalic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Muli-ExtraBold';
-    src: url('/assets/fonts/Muli-ExtraBold.woff') format('woff');
+    src: url('../assets/fonts/Muli-ExtraBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Muli-talic';
-    src: url('/assets/fonts/Muli-Italic.ttf') format('truetype');
+    src: url('../assets/fonts/Muli-Italic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Muli-Regular';
-    src: url('/assets/fonts/Muli-Regular.woff') format('woff');
+    src: url('../assets/fonts/Muli-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Muli-Semi-BoldItalic';
-    src: url('/assets/fonts/Muli-Semi-BoldItalic.ttf') format('truetype');
+    src: url('../assets/fonts/Muli-Semi-BoldItalic.ttf') format('truetype');
 }
 
 .header {
     background-image: url('../assets/images/header/header-bg-img.png');
+    background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 * {
@@ -40,8 +43,28 @@
 
 .title {
     font-family: 'Muli-ExtraBold', sans-serif;
+    color: #f7ae3b;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 0.8;
+    letter-spacing: -1px;
+    margin: 0;
 }
 
 .text {
     font-family: 'Muli-Regular';
+    font-size: 18px;
+    line-height: 1.94;
+    margin: 0;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    font-family: 'Muli-ExtraBold';
+    font-size: 20px;    
+}
+
+
