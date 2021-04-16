@@ -32,3 +32,16 @@
     background-image: url('../assets/images/header/header-bg-img.png');
     height: 100vh;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Muli-ExtraBold', sans-serif;
+}
+
+.text {
+    font-family: 'Muli-Regular';
+}
