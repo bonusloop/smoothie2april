@@ -402,3 +402,50 @@ justify-content: center;
 .testimonials__source {
     color: #f7ae3b;
 }
+
+/*  blog  */
+
+.blog__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog__title {
+    font-size: 50px;
+    font-weight: 800;
+    color: #f7ae3b;
+    margin-top: 100px;
+}
+
+.blog__right {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog__right-title {
+    color: #f2612d;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.blog__date {
+    color: #1e1e1e;
+    font-size: 15px;
+}
+
+.blog__text {
+    align-self: flex-end;
+    font-size: 18px;
+    width: 470px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.blog__link {
+    font-weight: 800;
+    color: #1e1e1e;
+    text-decoration: none;
+}
