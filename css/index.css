@@ -449,3 +449,25 @@ justify-content: center;
     color: #1e1e1e;
     text-decoration: none;
 }
+
+/*   instagram  */
+
+.instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram__link {
+    color: #0aa566;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Muli-ExtraBold';
+}
+
+.instagram__inner {
+    display: flex;
+}
+
+/*  footer  */
+
