@@ -471,3 +471,110 @@ justify-content: center;
 
 /*  footer  */
 
+.footer__top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 370px;
+    background-color: #f7ae3b;
+}
+
+.footer__information{
+    
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.information__title {
+    color:white;
+    letter-spacing: -0.52px;
+    font-size: 26px;
+    font-family: 'Muli-ExtraBold';
+}
+
+.information__item {
+    font-size: 18px;
+    font-family: 'Muli-Bold';
+    letter-spacing: -0.36px;
+    line-height: 1.94;
+}
+
+.information__link {
+    color: #6d450c;
+    text-decoration: none;
+}
+
+.payment {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 205px;
+}
+
+.payment__title {
+    color: #ffffff;
+    letter-spacing: -0.52px;
+    font-size: 26px;
+    font-family: 'Muli-ExtraBold';
+}
+
+.payment__list {
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.footer__box {
+    width: 495px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__box-title {
+    color: #ffffff;
+    letter-spacing: -0.52px;
+    font-size: 26px;
+    font-family: 'Muli-ExtraBold';
+}
+
+.footer__form {
+    font-family: 'Muli-Bold';
+    font-size: 17px;
+    color: #6d450c;
+}
+
+.footer__email {
+    margin-top: 35px;
+    padding: 18px 0px 20px 55px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 495px;
+    height: 60px;
+}
+
+.footer__socials {
+    display: flex;
+    margin: 30px 0 0 190px;
+}
+
+.social__subtitel {
+    color: #6d450c;
+    font-size: 18px;
+    font-family: 'Muli-ExtraBold';
+    margin: 5px 40px 0 5px;
+}
+
+.social__item:not(:first-child) {
+    margin-left: 25px;
+}
+
+.social__list {
+    display: flex;
+}
+
