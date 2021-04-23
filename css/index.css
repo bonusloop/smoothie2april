@@ -523,6 +523,20 @@ justify-content: center;
     width: 100vw;
 }
 
+.instagram__item-img {
+    position: relative;
+}
+
+.instagram__item-img::after {
+    content: '';
+    position: absolute;
+    background-image: url(../assets/images/instagram/Insta-white.png);
+    width: 27px;
+    height: 27px;
+    top: 340px;
+    right: 20px;
+}
+
 /*  footer  */
 
 .footer__top {
