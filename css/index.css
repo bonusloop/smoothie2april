@@ -373,20 +373,43 @@ justify-content: center;
 }
 
 .story__btn {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 300px;
     height: 60px;
     background-color: #0aa566;
     color: #ffffff;
     border-style: none;
     font-size: 20px;
+    padding-right: 130px;
+    position: relative;
+}
+
+.story__btn::after {
+    width: 33px;
+    height: 17px;
+    background-image: url(../assets/images/header/Arrow-yellow.png);
+    content: '';
+    position: absolute;
+    top: 23px;
+    right: 33px;
 }
 
 .story__img {
     padding-top: 120px;
     padding-bottom: 160px;
+}
+
+.story__wrap-right {
+    position: relative;
+}
+
+.story__wrap-right::before {
+    content: '';
+    width: 290px;
+    height: 215px;
+    background-image: url(../assets/images/story/Stamp.png);
+    position: absolute;
+    top: 130px;
+    left: -170px;
 }
 
 /*  testimonials  */
@@ -428,6 +451,22 @@ justify-content: center;
 
 .testimonials__source {
     color: #f7ae3b;
+}
+
+.testimonials__btn {
+    background: transparent;
+    border: none;
+    margin-bottom: 80px;
+}
+
+.testimonials__btn-left {
+    margin-right: 100px;
+}
+
+.testimonials__btn-arrow {
+    width: 30px;
+    height: 16px;
+    background-color: #672f1b;
 }
 
 /*  blog  */
