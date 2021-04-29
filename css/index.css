@@ -707,6 +707,10 @@ justify-content: center;
     line-height: 1.94;
 }
 
+.information__list {
+    padding-left: 0;
+}
+
 .information__link {
     color: #6d450c;
     text-decoration: none;
@@ -727,13 +731,6 @@ justify-content: center;
     font-family: 'Muli-ExtraBold';
 }
 
-/*.payment__list {
-     width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-}*/
 
 .footer__box {
     width: 495px;
@@ -785,7 +782,6 @@ justify-content: center;
     content:'' ;
     width: 48px;
     height: 43px;
-    background-color: #ffd89a;
     background-image: url(../assets/images/footer/Follow.png);
     position: absolute;
     top: -20px;
@@ -821,26 +817,31 @@ justify-content: center;
     margin: 0 auto;
 }
 
-.footer__up-btn {
-    position: absolute;
-    right: 0;
-    margin-right: 165px;
+.footer__btn {
+    position: fixed;
+    background-color: #f2662f;
+    border: none;
+    bottom: 35px;
+    font-size: 16px;
+    min-height: 50px;
+    min-width: 50px;
+    right: 55px;
 }
 
-.footer__btn {
-    position: relative;
-    border: 0;
-    background: transparent;
-    font-family: 'Muli-Bold';
-    color: #fff;
+.footer__btn::before {
+    position: absolute;
+    content: "Go top";
+    color:white;
+    left:-50px;
+    top:50px;
 }
 
 .footer__btn::after {
     content: '';
-    width: 50px;
-    height: 50px;
-    background-image: url(../assets/images/footer/Go\ Top.png);
     position: absolute;
-    right: -55px;
-    top: -44px;
+    height: 25px;
+    width: 13px;
+    background-image: url(../assets/images/footer/icon_arrow_up.png);
+    top: 14px;
+    left:19px;
 }
