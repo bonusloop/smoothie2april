@@ -77,6 +77,29 @@ ul {
     width: 100%;
 }
 
+.header__burger-btn {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    display: none;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    
+}
+
+.header__burger-btn-icon {
+    width: 100%;
+}
+
+
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header__content {
 display: flex;
 justify-content: center;
@@ -844,4 +867,18 @@ justify-content: center;
     background-image: url(../assets/images/footer/icon_arrow_up.png);
     top: 14px;
     left:19px;
+}
+
+@media (max-width: 768px) {
+    .header__top {
+        display: none;
+    }
+
+    .header__burger-btn {
+        display: block;
+    }
+
+    .header__navigation {
+        display: none;
+    }
 }
