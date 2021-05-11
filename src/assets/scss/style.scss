@@ -28,6 +28,11 @@
     src: url('../assets/fonts/Muli-Semi-BoldItalic.ttf') format('truetype');
 }
 
+html, body {
+    font-family: 'Muli', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
 
 * {
     margin: 0;
@@ -46,7 +51,7 @@
 
 .text {
     font-family: 'Muli-Regular';
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.94;
     margin: 0;
 }
@@ -57,13 +62,13 @@ ul {
 
 .btn {
     font-family: 'Muli-ExtraBold', sans-serif;
-    font-size: 20px;   
+    font-size: 2rem;   
     border-radius: 35px;
 }
 
 .header {
     padding: 70px;
-    background-image: url('../assets/images/header/header-bg-img.png');
+    background-image: url('../images/header/header-bg-img.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -80,12 +85,7 @@ ul {
 .header__burger-btn {
     background-color: transparent;
     border: none;
-    width: 50px;
     display: none;
-    position: fixed;
-    top: 40px;
-    right: 40px;
-    
 }
 
 .header__burger-btn-icon {
@@ -106,7 +106,7 @@ justify-content: center;
 }
 
 .header__btn {
-    font-size: 24px;
+    font-size: 2.4rem;
     width: 280px;
     height: 70px;
     border-style: none;
@@ -118,7 +118,7 @@ justify-content: center;
 .header__btn::after {
     content: '';
     position: absolute;
-    background-image:url(../assets/images/header/Arrow-yellow.png);
+    background-image:url(../images/header/Arrow-yellow.png);
     width: 33px;
     height: 17px;
     top: 28px;
@@ -184,7 +184,7 @@ justify-content: center;
 .personal::after {
     content: '';
     position: absolute;
-    background-image: url(../assets/images/header/Line.png);
+    background-image: url(../images/header/Line.png);
     height: 2px;
     width: 45px;
     top:12px;
@@ -254,7 +254,7 @@ justify-content: center;
 
 .smoothies__title {
     display: flex;
-    font-size: 50px;
+    font-size: 5rem;
     color: #f7ae3b;
     margin-top: 100px;
     margin-bottom: 55px;
@@ -301,7 +301,7 @@ justify-content: center;
 
 .features__title {
     color: #f2612d;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 
@@ -341,7 +341,7 @@ justify-content: center;
 .about__title-green::after {
     content: '';
     position: absolute;
-    background-image: url(../assets/images/about/Line-green.png);
+    background-image: url(../images/about/Line-green.png);
     width: 440px;
     height: 15px;
     top: 60px;
@@ -350,11 +350,11 @@ justify-content: center;
 
 .about__list-item {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 2.1rem;
     font-weight: 800;
     font-family: 'Muli-Regular';
     line-height: 1.05;
-    list-style-image: url(../assets/images/about/icon_about.png);
+    list-style-image: url(../images/about/icon_about.png);
     padding-left: 20px;
     margin-top: 25px;
 }
@@ -371,7 +371,7 @@ justify-content: center;
     color:white;
     display: flex;
     align-items:center;
-    font-size: 21px;
+    font-size: 2.1rem;
     padding-left: 14px;
     margin-bottom: 95px;
     position: relative;
@@ -380,7 +380,7 @@ justify-content: center;
 .about__btn::after {
     content: '';
     position: absolute;
-    background-image: url(../assets/images/about/Arrow-about.png);
+    background-image: url(../images/about/Arrow-about.png);
     width: 33px;
     height: 17px;
     top: 20px;
@@ -427,7 +427,7 @@ justify-content: center;
 }
 
 .products__title {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Muli-Regular';
     width: 291px;
     color: #ffffff;
@@ -448,7 +448,7 @@ justify-content: center;
 .products__btn::after {
     content:'';
     position: absolute;
-    background-image: url(../assets/images/products/Arrow-white.png);
+    background-image: url(../images/products/Arrow-white.png);
     top: 25px;
     right: 30px;
     width: 33px;
@@ -456,7 +456,7 @@ justify-content: center;
 }
 
 .products__title-thin {
-    font-size: 21px;
+    font-size: 2.1rem;
     font-weight: normal;
 }
 
@@ -483,12 +483,12 @@ justify-content: center;
 
 .story__title {
     color: #f7ae3b;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .story__text {
     color: #1e1e1e;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 35px;
     margin: 40px 0 60px 0;
@@ -500,7 +500,7 @@ justify-content: center;
     background-color: #0aa566;
     color: #ffffff;
     border-style: none;
-    font-size: 20px;
+    font-size: 2rem;
     padding-right: 130px;
     position: relative;
 }
@@ -508,7 +508,7 @@ justify-content: center;
 .story__btn::after {
     width: 33px;
     height: 17px;
-    background-image: url(../assets/images/header/Arrow-yellow.png);
+    background-image: url(../images/header/Arrow-yellow.png);
     content: '';
     position: absolute;
     top: 23px;
@@ -528,7 +528,7 @@ justify-content: center;
     content: '';
     width: 290px;
     height: 215px;
-    background-image: url(../assets/images/story/Stamp.png);
+    background-image: url(../images/story/Stamp.png);
     position: absolute;
     top: 130px;
     left: -170px;
@@ -544,7 +544,7 @@ justify-content: center;
 }
 
 .testimonials__title {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 800;
     color: #f7ae3b;
     margin-top: 115px;
@@ -563,7 +563,7 @@ justify-content: center;
 
 .testimonials__quote {
     height: 720px;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: white;
     line-height: 35px;
     display: flex;
@@ -602,7 +602,7 @@ justify-content: center;
 }
 
 .blog__title {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 800;
     color: #f7ae3b;
     margin-bottom: 50px;
@@ -617,7 +617,7 @@ justify-content: center;
 
 .blog__right-title {
     color: #f2612d;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
     margin: 50px 0 0 60px;
     font-family: 'Muli-ExtraBold';
@@ -629,7 +629,7 @@ justify-content: center;
     position: absolute;
     width: 687px;
     height: 12px;
-    background-image: url(../assets/images/blog/Line-yellow.png);
+    background-image: url(../images/blog/Line-yellow.png);
     top: -50px;
     left: -88px;
     z-index: -1;
@@ -637,7 +637,7 @@ justify-content: center;
 
 .blog__date {
     color: #1e1e1e;
-    font-size: 15px;
+    font-size: 1.5rem;
     margin: 20px 0 0 60px;
 }
 
@@ -657,7 +657,7 @@ justify-content: center;
     content: '';
     position: absolute;
     width: 18px;
-    background-image: url(../assets/images/blog/arrow_3289.png);
+    background-image: url(../images/blog/arrow_3289.png);
     top: 8px;
     right: -31px;
 }
@@ -672,7 +672,7 @@ justify-content: center;
 
 .instagram__link {
     color: #0aa566;
-    font-size: 24px;
+    font-size: 2.4rem;
     text-decoration: none;
     font-family: 'Muli-ExtraBold';
 }
@@ -691,7 +691,7 @@ justify-content: center;
 .instagram__item-img::after {
     content: '';
     position: absolute;
-    background-image: url(../assets/images/instagram/Insta-white.png);
+    background-image: url(../images/instagram/Insta-white.png);
     width: 27px;
     height: 27px;
     top: 340px;
@@ -719,12 +719,12 @@ justify-content: center;
 .information__title {
     color:white;
     letter-spacing: -0.52px;
-    font-size: 26px;
+    font-size: 2.6rem;
     font-family: 'Muli-ExtraBold';
 }
 
 .information__item {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Muli-Bold';
     letter-spacing: -0.36px;
     line-height: 1.94;
@@ -750,7 +750,7 @@ justify-content: center;
 .payment__title {
     color: #ffffff;
     letter-spacing: -0.52px;
-    font-size: 26px;
+    font-size: 2.6rem;
     font-family: 'Muli-ExtraBold';
 }
 
@@ -765,13 +765,13 @@ justify-content: center;
 .footer__box-title {
     color: #ffffff;
     letter-spacing: -0.52px;
-    font-size: 26px;
+    font-size: 2.6rem;
     font-family: 'Muli-ExtraBold';
 }
 
 .footer__form {
     font-family: 'Muli-Bold';
-    font-size: 17px;
+    font-size: 1.7rem;
     color: #6d450c;
     position: relative;
 }
@@ -779,7 +779,7 @@ justify-content: center;
 .footer__form::before {
     content: '';
     position: absolute;
-    background-image: url(../assets/images/footer/envelope.png);
+    background-image: url(../images/footer/envelope.png);
     width: 24px;
     height: 19px;
     top: 55px;
@@ -805,7 +805,7 @@ justify-content: center;
     content:'' ;
     width: 48px;
     height: 43px;
-    background-image: url(../assets/images/footer/Follow.png);
+    background-image: url(../images/footer/Follow.png);
     position: absolute;
     top: -20px;
     left: -50px;
@@ -813,7 +813,7 @@ justify-content: center;
 
 .social__subtitel {
     color: #6d450c;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Muli-ExtraBold';
     margin: 5px 40px 0 5px;
 }
@@ -835,7 +835,7 @@ justify-content: center;
 
 .footer__centr {
     color: #af8a82;
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 20px 20px;
     margin: 0 auto;
 }
@@ -845,7 +845,7 @@ justify-content: center;
     background-color: #f2662f;
     border: none;
     bottom: 35px;
-    font-size: 16px;
+    font-size: 1.6rem;
     min-height: 50px;
     min-width: 50px;
     right: 55px;
@@ -864,21 +864,25 @@ justify-content: center;
     position: absolute;
     height: 25px;
     width: 13px;
-    background-image: url(../assets/images/footer/icon_arrow_up.png);
+    background-image: url(../images/footer/icon_arrow_up.png);
     top: 14px;
     left:19px;
 }
 
 @media (max-width: 768px) {
     .header__top {
-        display: none;
+    display: none;
     }
 
     .header__burger-btn {
-        display: block;
+    display: block;
+    width: 50px;
+    position: fixed;
+    left: 40px;
+    top: 40px;
     }
 
     .header__navigation {
-        display: none;
+    display: none;
     }
 }
