@@ -28,6 +28,12 @@
   src: url("../assets/fonts/Muli-Semi-BoldItalic.ttf") format("truetype");
 }
 
+html, body {
+    font-family: 'Muli', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -45,7 +51,7 @@
 
 .text {
     font-family: 'Muli-Regular';
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.94;
     margin: 0;
 }
@@ -56,7 +62,7 @@ ul {
 
 .btn {
     font-family: 'Muli-ExtraBold', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     border-radius: 35px;
 }
 
@@ -81,6 +87,7 @@ ul {
 .header__burger-btn {
     background-color: transparent;
     border: none;
+    display: none;
 }
 
 .header__burger-btn-icon {
@@ -104,7 +111,7 @@ ul {
 }
 
 .header__btn {
-    font-size: 24px;
+    font-size: 2.4rem;
     width: 280px;
     height: 70px;
     border-style: none;
@@ -278,7 +285,7 @@ ul {
 .smoothies__title {
     display: -ms-flexbox;
     display: flex;
-    font-size: 50px;
+    font-size: 5rem;
     color: #f7ae3b;
     margin-top: 100px;
     margin-bottom: 55px;
@@ -333,7 +340,7 @@ ul {
 
 .features__title {
     color: #f2612d;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 /*  about  */
@@ -385,7 +392,7 @@ ul {
 
 .about__list-item {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 2.1rem;
     font-weight: 800;
     font-family: 'Muli-Regular';
     line-height: 1.05;
@@ -408,7 +415,7 @@ ul {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 21px;
+    font-size: 2.1rem;
     padding-left: 14px;
     margin-bottom: 95px;
     position: relative;
@@ -472,7 +479,7 @@ ul {
 }
 
 .products__title {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Muli-Regular';
     width: 291px;
     color: #ffffff;
@@ -501,7 +508,7 @@ ul {
 }
 
 .products__title-thin {
-    font-size: 21px;
+    font-size: 2.1rem;
     font-weight: normal;
 }
 
@@ -533,12 +540,12 @@ ul {
 
 .story__title {
     color: #f7ae3b;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .story__text {
     color: #1e1e1e;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 35px;
     margin: 40px 0 60px 0;
@@ -550,7 +557,7 @@ ul {
     background-color: #0aa566;
     color: #ffffff;
     border-style: none;
-    font-size: 20px;
+    font-size: 2rem;
     padding-right: 130px;
     position: relative;
 }
@@ -596,7 +603,7 @@ ul {
 }
 
 .testimonials__title {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 800;
     color: #f7ae3b;
     margin-top: 115px;
@@ -618,7 +625,7 @@ ul {
 
 .testimonials__quote {
     height: 720px;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: white;
     line-height: 35px;
     display: -ms-flexbox;
@@ -661,7 +668,7 @@ ul {
 }
 
 .blog__title {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 800;
     color: #f7ae3b;
     margin-bottom: 50px;
@@ -679,7 +686,7 @@ ul {
 
 .blog__right-title {
     color: #f2612d;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
     margin: 50px 0 0 60px;
     font-family: 'Muli-ExtraBold';
@@ -699,7 +706,7 @@ ul {
 
 .blog__date {
     color: #1e1e1e;
-    font-size: 15px;
+    font-size: 1.5rem;
     margin: 20px 0 0 60px;
 }
 
@@ -736,7 +743,7 @@ ul {
 
 .instagram__link {
     color: #0aa566;
-    font-size: 24px;
+    font-size: 2.4rem;
     text-decoration: none;
     font-family: 'Muli-ExtraBold';
 }
@@ -788,12 +795,12 @@ ul {
 .information__title {
     color: white;
     letter-spacing: -0.52px;
-    font-size: 26px;
+    font-size: 2.6rem;
     font-family: 'Muli-ExtraBold';
 }
 
 .information__item {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Muli-Bold';
     letter-spacing: -0.36px;
     line-height: 1.94;
@@ -822,7 +829,7 @@ ul {
 .payment__title {
     color: #ffffff;
     letter-spacing: -0.52px;
-    font-size: 26px;
+    font-size: 2.6rem;
     font-family: 'Muli-ExtraBold';
 }
 
@@ -838,13 +845,13 @@ ul {
 .footer__box-title {
     color: #ffffff;
     letter-spacing: -0.52px;
-    font-size: 26px;
+    font-size: 2.6rem;
     font-family: 'Muli-ExtraBold';
 }
 
 .footer__form {
     font-family: 'Muli-Bold';
-    font-size: 17px;
+    font-size: 1.7rem;
     color: #6d450c;
     position: relative;
 }
@@ -887,7 +894,7 @@ ul {
 
 .social__subtitel {
     color: #6d450c;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: 'Muli-ExtraBold';
     margin: 5px 40px 0 5px;
 }
@@ -912,7 +919,7 @@ ul {
 
 .footer__centr {
     color: #af8a82;
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 20px 20px;
     margin: 0 auto;
 }
@@ -922,7 +929,7 @@ ul {
     background-color: #f2662f;
     border: none;
     bottom: 35px;
-    font-size: 16px;
+    font-size: 1.6rem;
     min-height: 50px;
     min-width: 50px;
     right: 55px;
