@@ -1041,8 +1041,31 @@ ul {
     width: 50px;
     position: fixed;
     left: 40px;
-    top: 40px; }
+    top: 40px;
+    cursor: pointer; }
   .header__navigation {
-    display: none; } }
+    /*display: none;*/
+    background-color: #0aa566;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center; }
+  .menu__list {
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between; }
+  .logo__img {
+    width: 250px; }
+  .menu__item {
+    margin: 0; }
+  .menu__link {
+    font-size: 2rem; }
+  .header__right-block {
+    margin: 100px 0 150px; } }
 
 /*# sourceMappingURL=style.min.css.map */
