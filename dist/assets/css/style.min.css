@@ -412,6 +412,13 @@ ul {
   background-color: #0aa566;
   color: white; }
 
+.btn--green-bg:hover::after {
+  transform: translateX(10px);
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px); }
+
 .header__top {
   display: flex;
   justify-content: space-between;
@@ -628,6 +635,9 @@ ul {
   top: 20px;
   right: 30px; }
 
+.about__btn:hover::after {
+  transform: translateX(10px); }
+
 /*  products  */
 .products {
   display: flex;
@@ -685,6 +695,9 @@ ul {
   width: 33px;
   height: 17px; }
 
+.products__btn:hover::after {
+  transform: translateX(10px); }
+
 .products__title-thin {
   font-size: 2.1rem;
   font-weight: normal; }
@@ -734,6 +747,9 @@ ul {
   position: absolute;
   top: 23px;
   right: 33px; }
+
+.story__btn:hover::after {
+  transform: translateX(10px); }
 
 .story__img {
   padding-top: 120px;
@@ -1033,9 +1049,22 @@ ul {
   top: 14px;
   left: 19px; }
 
-@media (max-width: 768px) {
-  .header__top {
-    display: none; }
+@media screen and (max-width: 768px) {
+  .header__top .header__navigation {
+    display: none;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 120px;
+    margin-top: 0px;
+    background-color: #0aa566;
+    z-index: 111; }
   .header__burger-btn {
     display: block;
     width: 50px;
@@ -1043,18 +1072,26 @@ ul {
     left: 40px;
     top: 40px;
     cursor: pointer; }
-  .header__navigation {
-    /*display: none;*/
-    background-color: #0aa566;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
+  .header__top .header__navigation.active {
     flex-direction: column-reverse;
     justify-content: flex-end;
-    align-items: center; }
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    padding-top: 120px;
+    background-color: #0aa566;
+    z-index: 111;
+    margin-top: 0; }
+  .header__top .header__navigation.active {
+    display: -ms-flexbox;
+    display: flex; }
+  .header__nav {
+    margin-top: 100px; }
+  .header__burger-btn {
+    display: block; }
   .menu__list {
     flex-direction: column;
     height: 500px;
@@ -1066,6 +1103,10 @@ ul {
   .menu__link {
     font-size: 2rem; }
   .header__right-block {
-    margin: 100px 0 150px; } }
+    margin: 100px 0 150px; }
+  .header__wrap {
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 100px; } }
 
 /*# sourceMappingURL=style.min.css.map */
