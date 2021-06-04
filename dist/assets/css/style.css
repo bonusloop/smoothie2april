@@ -428,6 +428,7 @@ ul {
     background-color: transparent;
     border: none;
     display: none;
+    width: 50px;
 }
 
 .header__burger-btn-icon {
@@ -485,18 +486,6 @@ ul {
 
 .btn--green-bg:hover {
     background: #06dd87;
-}
-
-.header__top {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-align: center;
-    align-items: center;
-    max-width: 1720px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 .header__menu {
@@ -1369,60 +1358,21 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-    .header__top .header__navigation {
-        display: none;
+    .header__navigation {
+    /*display: none;*/
+        background-color: #0aa566;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
         -ms-flex-pack: end;
         justify-content: flex-end;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding-top: 120px;
-        margin-top: 0px;
-        background-color: #0aa566;
-        z-index: 111;
-    }
-
-    .header__burger-btn {
-        display: block;
-        width: 50px;
-        position: fixed;
-        left: 40px;
-        top: 40px;
-        cursor: pointer;
-    }
-
-    .header__top .header__navigation.active {
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-        -ms-flex-pack: end;
-        justify-content: flex-end;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        display: none;
-        padding-top: 120px;
-        background-color: #0aa566;
-        z-index: 111;
-        margin-top: 0;
-    }
-
-    .header__top .header__navigation.active {
-        display: -ms-flexbox;
-        display: flex;
-    }
-
-    .header__nav {
-        margin-top: 100px;
-    }
-
-    .header__burger-btn {
-        display: block;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     .menu__list {
@@ -1445,13 +1395,19 @@ ul {
         font-size: 2rem;
     }
 
-    .header__right-block {
-        margin: 100px 0 150px;
+    .menu__item {
+        margin: 0;
     }
 
     .header__wrap {
-        -ms-flex-pack: center;
-        justify-content: center;
-        margin-top: 100px;
+        margin: 100px 0 150px;
+    }
+
+    .header__burger-btn {
+        display: block;
+        width: 50px;
+        position: fixed;
+        right: 40px;
+        top: 20px;
     }
 }
