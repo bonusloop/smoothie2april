@@ -483,6 +483,10 @@ ul {
     -o-transform: translateX(10px);
 }
 
+.btn--green-bg:hover {
+    background: #06dd87;
+}
+
 .header__top {
     display: -ms-flexbox;
     display: flex;
@@ -521,6 +525,14 @@ ul {
     font-family: 'Muli-Semi-BoldItalic';
     text-decoration: none;
     font-size: 1.6rem;
+}
+
+.menu__item:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 .header__logo {
@@ -617,6 +629,19 @@ ul {
     width: 35px;
     background-color: white;
     border-radius: 50%;
+}
+
+.social__list-item:hover {
+    transform: rotate(1080deg);
+    -webkit-transform: rotate(1080deg);
+    -moz-transform: rotate(1080deg);
+    -ms-transform: rotate(1080deg);
+    -o-transform: rotate(1080deg);
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
 }
 
 /* smoothie */
@@ -1020,6 +1045,19 @@ ul {
     background-color: #672f1b;
 }
 
+.testimonials__img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+
 /*  blog  */
 .blog__wrap {
     display: -ms-flexbox;
@@ -1132,6 +1170,19 @@ ul {
     height: 27px;
     top: 340px;
     right: 20px;
+}
+
+.instagram__logo:hover {
+    transform: rotate(1080deg);
+    -webkit-transform: rotate(1080deg);
+    -moz-transform: rotate(1080deg);
+    -ms-transform: rotate(1080deg);
+    -o-transform: rotate(1080deg);
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
 }
 
 /*  footer  */
