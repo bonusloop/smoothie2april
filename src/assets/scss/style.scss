@@ -351,9 +351,10 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 610px;
 }
 
-.about__img {
+.about__wrap-img {
     transform: translate(-110px, 50px);
 }
 .about__title {
@@ -954,6 +955,17 @@ justify-content: center;
 
     .menu__list {
         margin-bottom: 23px;
+    }
+
+    .about__wrap-img {
+        transform: translate(70px,80px);
+        -webkit-transform: translate(70px,80px);
+        -moz-transform: translate(70px,80px);
+        -ms-transform: translate(70px,80px);
+        -o-transform: translate(70px,80px);
+}
+    .about__img {
+        max-width: 80%;
     }
 }
 
