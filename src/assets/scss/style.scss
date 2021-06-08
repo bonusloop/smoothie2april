@@ -34,6 +34,7 @@ html, body {
     font-family: 'Muli', sans-serif;
     font-size: 10px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 * {
@@ -942,7 +943,7 @@ justify-content: center;
 
 /* M E D I A */
 
-@media screen  and (max-width: 1400px) {
+@media screen  and (max-width: 1440px) {
     .header__navigation {
     flex-direction: column;
     justify-content: flex-end;

@@ -330,7 +330,8 @@ template {
 html, body {
   font-family: 'Muli', sans-serif;
   font-size: 10px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden; }
 
 * {
   margin: 0;
@@ -1090,7 +1091,7 @@ ul {
   left: 19px; }
 
 /* M E D I A */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
   .header__navigation {
     flex-direction: column;
     justify-content: flex-end;
