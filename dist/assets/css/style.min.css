@@ -587,6 +587,9 @@ ul {
   display: flex;
   justify-content: center; }
 
+.about__wrapper {
+  display: flex; }
+
 .about__wrap {
   display: flex;
   flex-direction: column;
@@ -663,7 +666,7 @@ ul {
 .products__wrap {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  overflow-x: scroll; }
 
 .products__item {
   display: flex;
@@ -848,7 +851,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 90px 0 190px 0; }
+  margin: 90px 30px 190px 30px; }
 
 .blog__title {
   font-size: 5rem;

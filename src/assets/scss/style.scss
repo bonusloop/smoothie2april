@@ -347,6 +347,9 @@ justify-content: center;
     justify-content: center;
 }
 
+.about__wrapper {
+    display: flex;
+}
 
 .about__wrap {
     display: flex;
@@ -435,7 +438,7 @@ justify-content: center;
 .products__wrap {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    overflow-x: scroll;
 }
 
 .products__item {
@@ -652,11 +655,13 @@ justify-content: center;
 
 /*  blog  */
 
+
+
 .blog__wrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 90px 0 190px 0;
+    margin: 90px 30px 190px 30px;
 
 }
 
@@ -771,6 +776,8 @@ justify-content: center;
 }
 
 /*  footer  */
+
+
 
 .footer__top {
     display: flex;
