@@ -953,7 +953,7 @@ ul {
 .footer__top {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  padding-top: 80px;
   height: 370px;
   background-color: #f7ae3b; }
 
@@ -987,13 +987,23 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 205px; }
+  height: 200px; }
 
 .payment__title {
   color: #ffffff;
   letter-spacing: -0.52px;
   font-size: 2.6rem;
   font-family: 'Muli-ExtraBold'; }
+
+.payment__list {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  flex-wrap: wrap; }
+
+.payment__list-iner {
+  align-self: center;
+  margin: 10px 15px 0 0; }
 
 .footer__box {
   width: 495px;
