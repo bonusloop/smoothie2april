@@ -543,7 +543,8 @@ ul {
   font-size: 5rem;
   color: #f7ae3b;
   margin-top: 100px;
-  margin-bottom: 55px; }
+  margin-bottom: 55px;
+  text-align: center; }
 
 .smoothies__text {
   display: flex;
@@ -1210,6 +1211,11 @@ ul {
   .header__btn {
     margin-top: 105px; }
   .about__wrapper {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .about__wrap-img {
+    transform: none;
+    text-align: center; }
+  .about__img {
+    max-width: 80%; } }
 
 /*# sourceMappingURL=style.min.css.map */

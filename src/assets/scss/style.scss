@@ -291,6 +291,7 @@ justify-content: center;
     color: #f7ae3b;
     margin-top: 100px;
     margin-bottom: 55px;
+    text-align: center;
 }
 
 .smoothies__text {
@@ -1122,6 +1123,15 @@ justify-content: center;
 
     .about__wrapper {
         flex-direction: column;
+    }
+
+    .about__wrap-img {
+        transform: none;
+        text-align: center;
+    }
+
+    .about__img {
+        max-width: 80%;
     }
 
 }
