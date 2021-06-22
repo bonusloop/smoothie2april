@@ -16,6 +16,8 @@
 
 @import './layout/features';
 
+@import './layout/about';
+
 /*@font-face {
     font-family: 'Muli-Bold';
     src: url('../fonts/Muli-Bold.ttf') format('truetype');
@@ -79,11 +81,11 @@ ul {
     list-style-type: none;
 }
 
-.btn {
+/*.btn {
     font-family: 'Muli-ExtraBold', sans-serif;
     font-size: 2rem;   
     border-radius: 35px;
-}
+}*/
 
 /* header */
 
@@ -358,7 +360,7 @@ justify-content: center;
 
 /*  about  */
 
-.about {
+/*.about {
     background-color: #14826f;
     display: flex;
     justify-content: center;
@@ -443,7 +445,7 @@ justify-content: center;
 
 .about__btn:hover::after {
     transform: translateX(10px);
-}
+}*/
 
 /*  products  */
 

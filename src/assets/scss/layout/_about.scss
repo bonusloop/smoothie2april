@@ -1,0 +1,78 @@
+.about {
+    background-color: #14826f;
+    display: flex;
+    justify-content: center;
+    &__wrapper {
+        display: flex;
+    }
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 610px;
+        &-img {
+            transform: translate(-110px, 50px);
+        }
+    }
+    
+    &__title {
+    width: 590px;
+    margin-top: 100px;
+    color: #ffffff;
+    line-height: 1.09;
+    letter-spacing: -1.1px;
+        &-green {
+        color: #cae941;
+        position: relative;
+            &::after {
+            content: '';
+            position: absolute;
+            background-image: url(../images/about/Line-green.png);
+            width: 440px;
+            height: 15px;
+            top: 60px;
+            right: -50px;
+            }
+        }
+    }
+    &__list-item {
+        color: #ffffff;
+        font-size: 2.1rem;
+        font-weight: 800;
+        font-family: 'Muli-Regular';
+        line-height: 1.05;
+        list-style-image: url(../images/about/icon_about.png);
+        padding-left: 20px;
+        margin-top: 25px;
+    }
+    &__list-thin {
+        font-weight: normal;
+    }
+    &__btn {
+        width: 350px;
+        height: 60px;
+        border: solid 2px #f8b231;
+        background-color: #15846d;
+        color:white;
+        display: flex;
+        align-items:center;
+        font-size: 2.1rem;
+        padding-left: 14px;
+        margin-bottom: 95px;
+        position: relative;
+        margin-top: 20px;
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url(../images/about/Arrow-about.png);
+            width: 33px;
+            height: 17px;
+            top: 20px;
+            right: 30px;
+        }
+        &:hover::after {
+            transform: translateX(10px);
+        }
+    }
+}
