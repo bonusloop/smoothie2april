@@ -1,3 +1,6 @@
+/*@import '../base/normalize.scss';
+@import '../fonts';*/
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -338,6 +341,7 @@ template {
     display: none;
 }
 
+/*@import '../fonts';*/
 @font-face {
     font-family: 'Muli-Bold';
   src: url("../fonts/Muli-Bold.ttf") format("truetype");
@@ -407,6 +411,7 @@ ul {
     border-radius: 35px;
 }
 
+/* header */
 .header {
     padding: 70px;
     background-image: url("../images/header/header-bg-img.png");

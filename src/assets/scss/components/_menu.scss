@@ -1,0 +1,32 @@
+.menu {
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 0;
+        
+    }
+    
+    &__item:not(:first-child) {
+        margin-left: 25px;
+        list-style-type: none; 
+        &:hover {
+            transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -o-transform: scale(1.5);
+        }
+    }
+    
+    &__link {
+        list-style-type: none;
+        color: white;
+        font-family: 'Muli-Semi-BoldItalic';
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    
+    
+}

@@ -1,4 +1,12 @@
-/*@import '../base/normalize.scss';*/
+@import '../base/normalize.scss';
+
+@import '../base/fonts';
+
+@import './layout/header';
+
+@import './components/menu';
+
+@import './components/personal';
 
 /*@font-face {
     font-family: 'Muli-Bold';
@@ -69,9 +77,9 @@ ul {
     border-radius: 35px;
 }
 
+/* header */
 
-
-.header {
+/*.header {
     padding: 70px;
     background-image: url('../images/header/header-bg-img.png');
     background-size: cover;
@@ -129,7 +137,7 @@ justify-content: center;
     height: 17px;
     top: 28px;
     right: 35px;
-}
+}*/
 
 .btn--green-bg {
     background-color: #0aa566;
@@ -150,7 +158,7 @@ justify-content: center;
 
 
 
-.header__menu {
+/*.header__menu {
     display: flex;
 }
 
@@ -236,7 +244,7 @@ justify-content: center;
     position: absolute;
     left: 25px;
     top: -10px;
-}
+}*/
 
 .social {
     display: flex;
