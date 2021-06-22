@@ -591,6 +591,58 @@ template {
     .about__btn:hover::after {
       transform: translateX(10px); }
 
+.products {
+  display: flex;
+  text-align: center; }
+  .products__wrap {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll; }
+  .products__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 25%;
+    width: 480px;
+    height: 720px; }
+    .products__item--Turmeric {
+      background-color: #c3471b; }
+    .products__item--Chocolate {
+      background-color: #632b17; }
+    .products__item--Vegan {
+      background-color: #178670; }
+    .products__item--Lemon {
+      background-color: #f7ae3b; }
+  .products__title {
+    font-size: 2.4rem;
+    font-family: 'Muli-Regular';
+    width: 291px;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 65px; }
+    .products__title-thin {
+      font-size: 2.1rem;
+      font-weight: normal; }
+  .products__btn {
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 22px 130px 18px 36px;
+    margin-top: 65px;
+    position: relative; }
+    .products__btn::after {
+      content: '';
+      position: absolute;
+      background-image: url(../images/products/Arrow-white.png);
+      top: 25px;
+      right: 30px;
+      width: 33px;
+      height: 17px; }
+    .products__btn:hover::after {
+      transform: translateX(10px); }
+
 /*@font-face {
     font-family: 'Muli-Bold';
     src: url('../fonts/Muli-Bold.ttf') format('truetype');
@@ -1006,69 +1058,80 @@ justify-content: center;
     transform: translateX(10px);
 }*/
 /*  products  */
-.products {
-  display: flex;
-  text-align: center; }
+/*.products {
+    display: flex;
+    text-align: center;
+}
 
 .products__wrap {
-  display: flex;
-  justify-content: space-between;
-  overflow-x: scroll; }
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
 
 .products__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1 1 25%;
-  width: 480px;
-  height: 720px; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 25%;
+    width: 480px;
+    height: 720px;
+}
 
 .products__item--Turmeric {
-  background-color: #c3471b; }
+    background-color: #c3471b;
+}
 
 .products__item--Chocolate {
-  background-color: #632b17; }
+    background-color: #632b17;
+}
 
 .products__item--Vegan {
-  background-color: #178670; }
+    background-color: #178670;
+}
 
 .products__item--Lemon {
-  background-color: #f7ae3b; }
+    background-color: #f7ae3b;
+}
 
 .products__title {
-  font-size: 2.4rem;
-  font-family: 'Muli-Regular';
-  width: 291px;
-  color: #ffffff;
-  margin-top: 35px;
-  margin-bottom: 65px; }
+    font-size: 2.4rem;
+    font-family: 'Muli-Regular';
+    width: 291px;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
 
 .products__btn {
-  border-radius: 30px;
-  border: solid 2px #ffffff;
-  background-color: transparent;
-  color: #ffffff;
-  padding: 22px 130px 18px 36px;
-  margin-top: 65px;
-  position: relative; }
+    border-radius: 30px;
+    border: solid 2px #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 22px 130px 18px 36px;
+    margin-top: 65px;
+    position: relative;
+}
 
 .products__btn::after {
-  content: '';
-  position: absolute;
-  background-image: url(../images/products/Arrow-white.png);
-  top: 25px;
-  right: 30px;
-  width: 33px;
-  height: 17px; }
+    content:'';
+    position: absolute;
+    background-image: url(../images/products/Arrow-white.png);
+    top: 25px;
+    right: 30px;
+    width: 33px;
+    height: 17px;
+}
 
 .products__btn:hover::after {
-  transform: translateX(10px); }
+    transform: translateX(10px);
+}
 
 .products__title-thin {
-  font-size: 2.1rem;
-  font-weight: normal; }
-
+    font-size: 2.1rem;
+    font-weight: normal;
+}*/
 /*  story  */
 .story {
   height: 100%; }

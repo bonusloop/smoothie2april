@@ -18,6 +18,8 @@
 
 @import './layout/about';
 
+@import './layout/products';
+
 /*@font-face {
     font-family: 'Muli-Bold';
     src: url('../fonts/Muli-Bold.ttf') format('truetype');
@@ -449,7 +451,7 @@ justify-content: center;
 
 /*  products  */
 
-.products {
+/*.products {
     display: flex;
     text-align: center;
 }
@@ -522,7 +524,7 @@ justify-content: center;
 .products__title-thin {
     font-size: 2.1rem;
     font-weight: normal;
-}
+}*/
 
 /*  story  */
 
