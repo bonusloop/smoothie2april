@@ -12,6 +12,10 @@
 
 @import './components/buttons';
 
+@import './layout/smoothies';
+
+@import './layout/features';
+
 /*@font-face {
     font-family: 'Muli-Bold';
     src: url('../fonts/Muli-Bold.ttf') format('truetype');
@@ -289,7 +293,7 @@ justify-content: center;
 
 /* smoothie */
 
-.smoothies {
+/*.smoothies {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -348,7 +352,7 @@ justify-content: center;
 .features__title {
     color: #f2612d;
     font-size: 2.5rem;
-}
+}*/
 
 
 
