@@ -1,0 +1,35 @@
+.social {
+    display: flex;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+        &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 35px;
+            width: 35px;
+            background-color: white;
+            border-radius: 50%;
+            &:not(:last-child) {
+                margin-right: 35px;
+            }
+            &:hover {
+                transform: rotate(1080deg);
+                -webkit-transform: rotate(1080deg);
+                -moz-transform: rotate(1080deg);
+                -ms-transform: rotate(1080deg);
+                -o-transform: rotate(1080deg);
+                transition: 1.5s;
+                -webkit-transition: 1.5s;
+                -moz-transition: 1.5s;
+                -ms-transition: 1.5s;
+                -o-transition: 1.5s;
+            }
+        }
+    }  
+}
+

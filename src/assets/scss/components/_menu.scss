@@ -1,5 +1,4 @@
 .menu {
-
     &__list {
         display: flex;
         justify-content: space-between;
@@ -7,7 +6,6 @@
         padding: 0;
         
     }
-    
     &__item:not(:first-child) {
         margin-left: 25px;
         list-style-type: none; 
@@ -19,7 +17,6 @@
             -o-transform: scale(1.5);
         }
     }
-    
     &__link {
         list-style-type: none;
         color: white;
@@ -27,6 +24,4 @@
         text-decoration: none;
         font-size: 1.6rem;
     }
-    
-    
 }

@@ -622,10 +622,10 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  .personal__list-item:not(:last-child) {
-    margin-right: 45px; }
-    .personal__list-item:not(:last-child):last-child {
-      position: relative; }
+    .personal__list-item:not(:last-child) {
+      margin-right: 45px; }
+      .personal__list-item:not(:last-child):last-child {
+        position: relative; }
   .personal__cart-count {
     background-color: white;
     height: 20px;
@@ -637,6 +637,46 @@ justify-content: center;
     position: absolute;
     left: 190px;
     top: -10px; }
+
+.social {
+  display: flex; }
+  .social__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .social__list-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35px;
+      width: 35px;
+      background-color: white;
+      border-radius: 50%; }
+      .social__list-item:not(:last-child) {
+        margin-right: 35px; }
+      .social__list-item:hover {
+        transform: rotate(1080deg);
+        -webkit-transform: rotate(1080deg);
+        -moz-transform: rotate(1080deg);
+        -ms-transform: rotate(1080deg);
+        -o-transform: rotate(1080deg);
+        transition: 1.5s;
+        -webkit-transition: 1.5s;
+        -moz-transition: 1.5s;
+        -ms-transition: 1.5s;
+        -o-transition: 1.5s; }
+
+.btn--green-bg {
+  background-color: #0aa566;
+  color: white; }
+  .btn--green-bg:hover {
+    background: #06dd87; }
+  .btn--green-bg:hover::after {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px); }
 
 /*@font-face {
     font-family: 'Muli-Bold';
@@ -759,22 +799,28 @@ justify-content: center;
     height: 17px;
     top: 28px;
     right: 35px;
-}*/
+}
+
 .btn--green-bg {
-  background-color: #0aa566;
-  color: white; }
+    background-color: #0aa566;
+    color: white;
+}
 
 .btn--green-bg:hover::after {
-  transform: translateX(10px);
-  -webkit-transform: translateX(10px);
-  -moz-transform: translateX(10px);
-  -ms-transform: translateX(10px);
-  -o-transform: translateX(10px); }
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
 
 .btn--green-bg:hover {
-  background: #06dd87; }
+    background: #06dd87;
+}
 
-/*.header__menu {
+
+
+.header__menu {
     display: flex;
 }
 
@@ -860,39 +906,44 @@ justify-content: center;
     position: absolute;
     left: 25px;
     top: -10px;
-}*/
+}
+
 .social {
-  display: flex; }
+    display: flex;
+    }
 
 .social__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}  
 
 .social__list-item:not(:last-child) {
-  margin-right: 35px; }
+    margin-right: 35px;
+}
 
 .social__list-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 35px;
-  width: 35px;
-  background-color: white;
-  border-radius: 50%; }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+}
 
 .social__list-item:hover {
-  transform: rotate(1080deg);
-  -webkit-transform: rotate(1080deg);
-  -moz-transform: rotate(1080deg);
-  -ms-transform: rotate(1080deg);
-  -o-transform: rotate(1080deg);
-  transition: 1.5s;
-  -webkit-transition: 1.5s;
-  -moz-transition: 1.5s;
-  -ms-transition: 1.5s;
-  -o-transition: 1.5s; }
-
+    transform: rotate(1080deg);
+    -webkit-transform: rotate(1080deg);
+    -moz-transform: rotate(1080deg);
+    -ms-transform: rotate(1080deg);
+    -o-transform: rotate(1080deg);
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}*/
 /* smoothie */
 .smoothies {
   display: flex;

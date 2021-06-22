@@ -1,0 +1,16 @@
+.btn {
+    &--green-bg {
+        background-color: #0aa566;
+        color: white;
+        &:hover {
+            background: #06dd87;
+        }
+        &:hover::after {
+            transform: translateX(10px);
+            -webkit-transform: translateX(10px);
+            -moz-transform: translateX(10px);
+            -ms-transform: translateX(10px);
+            -o-transform: translateX(10px);
+        }
+    }
+}

@@ -8,6 +8,10 @@
 
 @import './components/personal';
 
+@import './components/social';
+
+@import './components/buttons';
+
 /*@font-face {
     font-family: 'Muli-Bold';
     src: url('../fonts/Muli-Bold.ttf') format('truetype');
@@ -137,7 +141,7 @@ justify-content: center;
     height: 17px;
     top: 28px;
     right: 35px;
-}*/
+}
 
 .btn--green-bg {
     background-color: #0aa566;
@@ -158,7 +162,7 @@ justify-content: center;
 
 
 
-/*.header__menu {
+.header__menu {
     display: flex;
 }
 
@@ -244,7 +248,7 @@ justify-content: center;
     position: absolute;
     left: 25px;
     top: -10px;
-}*/
+}
 
 .social {
     display: flex;
@@ -281,7 +285,7 @@ justify-content: center;
     -moz-transition: 1.5s;
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
-}
+}*/
 
 /* smoothie */
 

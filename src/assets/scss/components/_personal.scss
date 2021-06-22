@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
     margin-right: 135px;
-
     &::after {
         content: '';
         position: absolute;
@@ -17,12 +16,11 @@
         display: flex;
         justify-content: space-between;
         align-items:center;
-    }
-
-    &__list-item:not(:last-child) {
-        margin-right: 45px;
-        &:last-child {
-            position: relative;
+        &-item:not(:last-child) {
+            margin-right: 45px;
+            &:last-child {
+                position: relative;
+            }
         }
     }
 
