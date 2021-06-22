@@ -697,6 +697,55 @@ template {
       top: 130px;
       left: -170px; }
 
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #672f1b; }
+  .testimonials__title {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #f7ae3b;
+    margin-top: 115px; }
+  .testimonials__title-large {
+    color: #f2612d; }
+  .testimonials__wrap {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .testimonials__quote {
+    height: 720px;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .testimonials__source {
+    color: #f7ae3b; }
+  .testimonials__btn {
+    background: transparent;
+    border: none;
+    margin-bottom: 80px; }
+  .testimonials__btn-left {
+    margin-right: 100px; }
+  .testimonials__btn-arrow {
+    width: 30px;
+    height: 16px;
+    background-color: #672f1b; }
+  .testimonials__img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s; }
+
 /*@font-face {
     font-family: 'Muli-Bold';
     src: url('../fonts/Muli-Bold.ttf') format('truetype');
