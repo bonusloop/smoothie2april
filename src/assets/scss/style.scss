@@ -20,6 +20,8 @@
 
 @import './layout/products';
 
+@import './layout/story';
+
 /*@font-face {
     font-family: 'Muli-Bold';
     src: url('../fonts/Muli-Bold.ttf') format('truetype');
@@ -528,7 +530,7 @@ justify-content: center;
 
 /*  story  */
 
-.story {
+/*.story {
     
     height: 100%;
 }
@@ -602,11 +604,11 @@ justify-content: center;
     position: absolute;
     top: 130px;
     left: -170px;
-}
+}*/
 
 /*  testimonials  */
 
-.testimonials {
+/*.testimonials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -672,7 +674,7 @@ justify-content: center;
     -moz-transition: 1.5s;
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
-}
+}*/
 
 /*  blog  */
 
